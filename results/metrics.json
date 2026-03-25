@@ -1,0 +1,18 @@
+{
+  "impedance": {
+    "rms_position_error_m": 0.0013165364536778898,
+    "final_position_error_m": 0.0003252705743770844,
+    "peak_contact_force_N": 0.0,
+    "control_energy": 0.04750546836223486,
+    "settling_time_s": 0.502,
+    "constraint_violation_samples": 0
+  },
+  "joint_pd": {
+    "rms_position_error_m": 0.08842186244898292,
+    "final_position_error_m": 0.0003372540603806074,
+    "peak_contact_force_N": 0.0,
+    "control_energy": 1.9277542079711658,
+    "settling_time_s": 2.382,
+    "constraint_violation_samples": 0
+  }
+}
