@@ -1,16 +1,8 @@
-# SpaceR Manipulation Benchmark
+# Manipulation Benchmark
 
 A compact, GitHub-ready research prototype for **constrained robotic manipulation in a space-inspired setting**.
 
 This project implements and benchmarks two controllers on a 2-DoF planar manipulator performing a **constrained approach / capture task** inspired by robotic interaction with fragile spacecraft panels, servicing fixtures, or docking interfaces.
-
-The goal is to provide a technically credible portfolio project that demonstrates:
-- forward/inverse kinematics,
-- manipulator Jacobian-based control,
-- Cartesian impedance control,
-- task-space benchmarking,
-- reproducible simulation results,
-- research-style technical documentation.
 
 ## Project motivation
 
@@ -118,14 +110,7 @@ The joint PD controller eventually reaches the target, but it tracks the task mu
 ### Joint-PD tracking/contact
 ![Joint PD timeseries](results/joint_pd_timeseries.png)
 
-## Why this is useful on GitHub
 
-This project is suitable for a robotics/manipulation portfolio because it shows that you can:
-- formulate a relevant manipulation problem,
-- implement kinematics and dynamics cleanly,
-- compare controllers with meaningful metrics,
-- document assumptions and limitations honestly,
-- structure a technical repo like a small research artifact.
 
 ## Limitations
 
@@ -152,10 +137,3 @@ Strong next steps for making the project even more aligned with space robotics r
 7. Add vision-based target localization.
 8. Evaluate robustness under parameter uncertainty.
 
-## Citation / portfolio note
-
-If you place this on GitHub, present it as:
-
-> A compact research prototype for constrained robotic manipulation in a space-inspired scenario, comparing Cartesian impedance control against a joint-space baseline on a narrow-corridor approach task.
-
-That framing is accurate, professional, and aligned with the type of work described in the SpaceR posting.
